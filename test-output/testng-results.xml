@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-27T11:48:28 IST" name="Suite" finished-at="2021-09-27T11:48:41 IST" duration-ms="13472">
+    <groups>
+    </groups>
+    <test started-at="2021-09-27T11:48:28 IST" name="Test" finished-at="2021-09-27T11:48:41 IST" duration-ms="13472">
+      <class name="com.mindtree.runner.TestRunner">
+        <test-method is-config="true" signature="getTestData()[pri:0, instance:com.mindtree.runner.TestRunner@274872f8]" started-at="2021-09-27T11:48:28 IST" name="getTestData" finished-at="2021-09-27T11:48:28 IST" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestData -->
+        <test-method is-config="true" signature="testing()[pri:0, instance:com.mindtree.runner.TestRunner@274872f8]" started-at="2021-09-27T11:48:28 IST" name="testing" finished-at="2021-09-27T11:48:30 IST" duration-ms="1670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method signature="testSearchTitle(java.lang.String)[pri:0, instance:com.mindtree.runner.TestRunner@274872f8]" started-at="2021-09-27T11:48:30 IST" name="testSearchTitle" data-provider="getTestData" finished-at="2021-09-27T11:48:33 IST" duration-ms="3289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smartphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchTitle -->
+        <test-method signature="testSearchTitle(java.lang.String)[pri:0, instance:com.mindtree.runner.TestRunner@274872f8]" started-at="2021-09-27T11:48:33 IST" name="testSearchTitle" data-provider="getTestData" finished-at="2021-09-27T11:48:37 IST" duration-ms="4111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Watch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchTitle -->
+        <test-method signature="testSearchTitle(java.lang.String)[pri:0, instance:com.mindtree.runner.TestRunner@274872f8]" started-at="2021-09-27T11:48:37 IST" name="testSearchTitle" data-provider="getTestData" finished-at="2021-09-27T11:48:41 IST" duration-ms="3664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Footwear]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchTitle -->
+        <test-method is-config="true" signature="clean()[pri:0, instance:com.mindtree.runner.TestRunner@274872f8]" started-at="2021-09-27T11:48:41 IST" name="clean" finished-at="2021-09-27T11:48:42 IST" duration-ms="814" status="FAIL">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-9VQ45CQ', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}), userDataDir=C:\Users\WINDOW~1\AppData\Local\Temp\scoped_dir6372_1741138062}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:62167}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=94.0.4606.61, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 3c83884ea27176aead21fbe4fd7bc1d6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-9VQ45CQ', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}), userDataDir=C:\Users\WINDOW~1\AppData\Local\Temp\scoped_dir6372_1741138062}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:62167}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=94.0.4606.61, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 3c83884ea27176aead21fbe4fd7bc1d6
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:533)
+at com.mindtree.runner.TestRunner.clean(TestRunner.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:344)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Couldn't detect pid
+at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:133)
+at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
+at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:246)
+at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:200)
+at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:126)
+at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:153)
+at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:221)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:94)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+... 22 more
+Caused by: java.lang.RuntimeException: Couldn't detect pid
+at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:195)
+at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:128)
+... 30 more
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final long java.lang.ProcessImpl.handle accessible: module java.base does not "opens java.lang" to unnamed module @2096442d
+at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
+at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:177)
+at java.base/java.lang.reflect.Field.setAccessible(Field.java:171)
+at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:181)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+      </class> <!-- com.mindtree.runner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
